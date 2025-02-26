@@ -66,7 +66,7 @@ def scrape_ratings(url, sheet_name):
     # Сохранение данных в Google таблицу "Quiz" и закладки "Season" и "All"
     sheet = gc.open('Quiz').worksheet(sheet_name)
     sheet.clear()
-    sheet.update('A1', data)
+    sheet.update(range_name='A1', values=data)
 
 
 try:
