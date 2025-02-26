@@ -57,6 +57,7 @@ def scrape_ratings(url, sheet_name):
         if next_buttons:
             next_page_link = next_buttons[0].get_attribute('href')
             driver.get(next_page_link)
+            wait = WebDriverWait(driver, 30)
             wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'rating-table')))
             current_page += 1
         else:
