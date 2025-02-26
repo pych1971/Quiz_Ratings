@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bacf79e7-761a-43bc-8127-7dae0c234fd1" name="Changes" comment="2025-02-26-16-35">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz_ratings.py" afterDir="false" />
-    </list>
+    <list default="true" id="bacf79e7-761a-43bc-8127-7dae0c234fd1" name="Changes" comment="2025-02-26-17-41" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740569719594</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2025-02-26-17-41">
+      <option name="closed" value="true" />
+      <created>1740573718653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740573718653</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -110,6 +115,7 @@
     <MESSAGE value="2025-02-26-16-00" />
     <MESSAGE value="2025-02-26-16-10" />
     <MESSAGE value="2025-02-26-16-35" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025-02-26-16-35" />
+    <MESSAGE value="2025-02-26-17-41" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025-02-26-17-41" />
   </component>
 </project>
