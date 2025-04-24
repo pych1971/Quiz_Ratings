@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 import gspread
 from google.oauth2.service_account import Credentials
 
@@ -12,7 +13,6 @@ from google.oauth2.service_account import Credentials
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s:%(message)s')
 
 # Константы (селекторы и т.д.)
-CHROMEDRIVER_PATH = os.getenv('CHROMEDRIVER_PATH', r'c:\chromedriver-win64\chromedriver.exe')
 CREDENTIALS_PATH = os.getenv('CREDENTIALS_PATH', 'credentials.json')
 SCOPES = [
     'https://www.googleapis.com/auth/spreadsheets',
@@ -38,7 +38,7 @@ def init_driver(headless=True):
                  "profile.managed_default_content_settings.stylesheets": 2}
         options.add_experimental_option("prefs", prefs)
 
-    service = Service(executable_path=CHROMEDRIVER_PATH)
+    service = Service(executable_path=ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=options)
     driver.set_page_load_timeout(20)
     return driver

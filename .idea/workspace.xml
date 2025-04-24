@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bacf79e7-761a-43bc-8127-7dae0c234fd1" name="Changes" comment="2025-02-26-17-52">
+    <list default="true" id="bacf79e7-761a-43bc-8127-7dae0c234fd1" name="Changes" comment="2025-03-02-09-44">
+      <change beforePath="$PROJECT_DIR$/.idea/Quiz_Ratings.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Quiz_Ratings.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quiz_ratings.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz_ratings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +31,12 @@
     &quot;assignee&quot;: &quot;pych1971&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pych1971/Quiz_Ratings",
-    "accountId": "50dd3de6-8d35-492d-a982-68733cf298d5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pych1971/Quiz_Ratings&quot;,
+    &quot;accountId&quot;: &quot;152e449b-e45c-425d-97e9-a8f6e3b636cd&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -43,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.quiz_ratings.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Oleg/YandexDisk/Programming/Python/PycharmProjects/Quiz_Ratings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.quiz_ratings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Oleg/YandexDisk/Programming/Python/PycharmProjects/Quiz_Ratings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="quiz_ratings" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Quiz_Ratings" />
@@ -64,7 +67,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -82,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -143,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740574333874</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2025-03-02-09-44">
+      <option name="closed" value="true" />
+      <created>1740890694221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740890694221</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +163,7 @@
     <MESSAGE value="2025-02-26-16-35" />
     <MESSAGE value="2025-02-26-17-41" />
     <MESSAGE value="2025-02-26-17-52" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025-02-26-17-52" />
+    <MESSAGE value="2025-03-02-09-44" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025-03-02-09-44" />
   </component>
 </project>
