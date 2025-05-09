@@ -1,5 +1,6 @@
 import logging
 import os
+import re
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -75,22 +76,30 @@ def scrape_ratings(driver, gc, url, sheet_name):
             if len(cells) != 3:
                 continue
 
-            rank_team_text = cells[0].text.split('.', 1)
-            if len(rank_team_text) != 2:
+            team_lines = cells[0].text.strip().split('\n')
+            if len(team_lines) < 2:
                 continue
 
+            team_name = team_lines[0].strip()
+            rank_raw = team_lines[1].strip()
+            rank = re.sub(r'[^\d]', '', rank_raw)
+
             games_text = cells[1].text.strip()
-            if not games_text.isdigit():
+            games_match = re.search(r'\d+', games_text)
+            if not games_match:
+                continue
+
+            points_text = cells[2].text.strip().replace(',', '.')
+            points_match = re.search(r'\d+(\.\d+)?', points_text)
+            if not points_match:
                 continue
 
             try:
-                games_played = int(games_text)
+                games_played = int(games_match.group())
                 if games_played == 0:
                     continue
 
-                rank = rank_team_text[0].strip()
-                team_name = rank_team_text[1].strip()
-                points = float(cells[2].text.strip().replace(',', '.'))
+                points = float(points_match.group())
                 avg_points = round(points / games_played, 2)
 
                 data.append([rank, team_name, games_played, points, avg_points])
