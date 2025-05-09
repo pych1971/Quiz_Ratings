@@ -79,8 +79,12 @@ def scrape_ratings(driver, gc, url, sheet_name):
             if len(rank_team_text) != 2:
                 continue
 
+            games_text = cells[1].text.strip()
+            if not games_text.isdigit():
+                continue
+
             try:
-                games_played = int(cells[1].text.strip())
+                games_played = int(games_text)
                 if games_played == 0:
                     continue
 
